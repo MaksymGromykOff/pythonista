@@ -1,4 +1,3 @@
-
 # english-german dictionary wordlist
 e2g = {
   'stork': 'storch', 
