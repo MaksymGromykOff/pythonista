@@ -9,15 +9,14 @@ inventory = {
 inventory["pocket"] = ['seashell', 'strange berry', 'lint']
 
 # TODO: ( .sort()) elements in backpack and print
-#inventory.sort() #error
+inventory['backpack'].sort()
 
-#print(inventory)
+print(inventory)
 
 # TODO: del dagger from list
-#inventory['dagger'].remove() #KeyError: 'dagger'
-#del inventory[2:1] #TypeError: unhashable type: 'slice'
-# &nihyja_ne_pahae.exe
+inventory['backpack'].remove('dagger')
 
 # TODO: add 50 gold and print results
+inventory['gold'] += 50
 
 print(inventory)
