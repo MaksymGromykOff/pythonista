@@ -4,7 +4,7 @@ def input_user():
     :return: input by user.
     :rtype: str"""
 
-    inp = input("\nPLease enter inegers separetad by space:\n")
+    inp = input("\nPlease enter inegers separetad by space:\n")
 
     return inp
     
@@ -18,4 +18,4 @@ def process(inp):
 
 if __name__ == "__main__":
 
-    process(input_user())
+    print(process(input_user()))
